@@ -9,7 +9,7 @@ app = Flask(__name__)
 def home():
     return '<h1>Hello Flask!<h1>'
 
-# use this part only when you run flask app with command `python app.py`. Enable debugging detect changes of app.py in the browser without the need to restart flask server
+# use this part only when you run flask app with command `python index.py`. Enable debugging detect changes of index.py in the browser without the need to restart flask server
 """
 if __name__ == "__main__":
     app.run(debug=True)
