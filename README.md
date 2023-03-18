@@ -1,6 +1,6 @@
 # Hello Flask
 
-This is a tutorial how to build a simple web app with Python. We’ll use a micro-framework called **[Flask](https://flask.palletsprojects.com)**.
+This is a tutorial how to build a simple web app with Python on your local machine. We’ll use a micro-framework called **[Flask](https://flask.palletsprojects.com)**.
 
 Flask is based on the **Werkzeug** WSGI toolkit and and **Jinja2** template engine.
 
@@ -18,10 +18,11 @@ Flask is based on the **Werkzeug** WSGI toolkit and and **Jinja2** template engi
   app = Flask(__name__)
   @app.route('/')
   def home():
-  return '<h1>Hello Flask!<h1>'
+      return '<h1>Hello Flask!<h1>'
   ```
 - Create virtual environment and install dependencies: `pipenv install`
 - Install Flask into virtual environment: `pipenv install flask`
 - Open pipenv shell: `pipenv shell`
 - Define which app to run: `export FLASK_APP=index.py`
 - Run the app: `flask run`
+- Open the app in web browser: <http://127.0.0.1:5000>
