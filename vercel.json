@@ -1,0 +1,12 @@
+{
+  "builds": [
+    { "src": "index.py", "use": "@vercel/python" }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.py" }
+  ],
+  "env": {
+    "FLASK_ENV": "production",
+    "FLASK_APP": "index.py"
+  }
+}
