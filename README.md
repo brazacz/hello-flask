@@ -1,6 +1,8 @@
 # Hello Flask
 
-This is a tutorial how to build a simple web app with Python on your local machine. We’ll use a micro-framework called **[Flask](https://flask.palletsprojects.com)**.
+This is a tutorial how to build a simple web app with Python on your local machine. 
+
+We’ll use a micro-framework called **[Flask](https://flask.palletsprojects.com)**.
 
 Flask is based on the **Werkzeug** WSGI toolkit and and **Jinja2** template engine.
 
